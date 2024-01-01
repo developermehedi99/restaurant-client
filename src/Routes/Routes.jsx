@@ -31,7 +31,7 @@ import SingOut from "../pages/singOut/SingOut";
           element: <OurNavMenu></OurNavMenu>
         },
         {
-          path: "/shop/:category",
+          path: "/shop",
           element: <Shop></Shop>
         },
         {
