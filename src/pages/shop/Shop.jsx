@@ -7,11 +7,13 @@ import 'react-tabs/style/react-tabs.css';
 import { useState } from "react";
 import useMenu from "../../hooks/usemenu";
 import ShopTab from "./ShopTab";
+import { useParams } from "react-router-dom";
 
 const Shop = () => {
     const [indexTab, setIndexTab] = useState(0)
     const [menu] = useMenu();
-
+    const {category} = useParams();
+    console.log(category)
     const salad = menu.filter(item => item.category === "salad");
     const drinks = menu.filter(item => item.category === 'drinks');
     const dessert = menu.filter(item => item.category === 'dessert');
