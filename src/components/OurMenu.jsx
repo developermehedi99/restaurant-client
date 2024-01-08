@@ -1,7 +1,7 @@
 // import { useEffect, useState } from "react";
 import SectionTitle from "./SectionTitle";
 import MenuItem from "./MenuItem";
-import useMenu from "../hooks/usemenu";
+import useMenu from "../hooks/useMenu";
 
 const OurMenu = () => {
     const [menu] = useMenu([]);
