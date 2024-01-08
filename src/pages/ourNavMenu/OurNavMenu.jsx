@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
 import Cover from "../../components/Cover";
 import mentBg from "../../assets/menu/banner3.jpg"
-import useMenu from "../../hooks/usemenu";
+import useMenu from "../../hooks/useMenu";
 import MenuCategory from "./MenuCategory";
 import SectionTitle from "../../components/SectionTitle";
 import disImg from "../../assets/menu/dessert-bg.jpeg"
