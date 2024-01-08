@@ -5,7 +5,7 @@ import shopBg from "../../assets/menu/salad-bg.jpg"
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { useState } from "react";
-import useMenu from "../../hooks/usemenu";
+import useMenu from "../../hooks/useMenu";
 import ShopTab from "./ShopTab";
 // import { useParams } from "react-router-dom";
 
